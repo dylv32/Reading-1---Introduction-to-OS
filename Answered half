@@ -5,17 +5,22 @@
 Answer the following questions from the Chapter 1 reading from your textbook. Be thorough and complete with your answers. You may work on these questions with one or two other partners, but *all* students must submit the document individually in their own repositories along with each student's name documented with the submission.
 
 1. What are the two main functions of an operating system?
+-providing abstractions to user programs and managing the computer's resources
 
 2. What is the difference between timesharing and multiprogramming systems?
+-timesharing allows for multiple users to access and use a computing system at the same time, while multiprogramming allow a user to run multiple programs at the same time.
 
 3. The family-of-computers idea was introduced in the 1960s with the IBM System/360 mainframes. Is this idea now dead as a doornail or does it live on?
+-It is still alive.
 
 4. What is the difference between kernel and user mode? Explain how having two distinct modes aids in designing an operating system.
+-Kernel mode allows the user to use all hardware and capabilites of the computer, while user mode is limited to certain instructions
 
 5. On early computers, every byte of data read or written was handled by the CPU (i.e., there was no DMA). What implications does this have for multiprogramming?
+-This means that the CPU is fully occupied and cannot perform multiprogramming
 
 6. There are several design goals in building an operating system, for example, resource utilization, timeliness, robustness, and so on. Give an example of two design goals that may contradict one another.
-
+-Considering resource utiliztion and robustness, resources may be sacrificed for robustness.
 7. Which of the following instructions should be allowed only in kernel mode?
     (a) Disable all interrupts.
     (b) Read the time-of-day clock.
